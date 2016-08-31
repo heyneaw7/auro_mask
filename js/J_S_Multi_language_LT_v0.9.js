@@ -173,7 +173,7 @@ function changeImageByLang(lang_index){
       }
 
 
-  
+
   return;
 
 }
@@ -383,8 +383,8 @@ Multi_Lang_Wording[2]="JP - 日本語";
 
 //多語系網頁Title招呼語 (顯示在瀏覽TAB上)
 Multi_Lang_Title= new Array();
-Multi_Lang_Title[0]="EQL - essence | 極光美肌儀";
-Multi_Lang_Title[1]="EQL - essence | AURO Mask";
+Multi_Lang_Title[0]="歡迎來到EQL - essence | 極光美肌儀";
+Multi_Lang_Title[1]="Welcome to EQL - essence | AURO Mask";
 Multi_Lang_Title[2]="EQLへようこそ - AURO Mask";
 
 
