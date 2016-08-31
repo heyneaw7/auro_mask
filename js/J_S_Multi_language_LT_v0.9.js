@@ -150,8 +150,8 @@ function changeImageByLang(lang_index){
 
 
 
-  switch (lang_index) {
-    case 0:
+  if(lang_index==0) {
+
         document.getElementById('slideshowImage1').src=tw_img1_src;
         document.getElementById('slideshowImage2').src=tw_img2_src;
         document.getElementById('slideshowImage3').src=tw_img3_src;
@@ -160,8 +160,8 @@ function changeImageByLang(lang_index){
         document.getElementById('slideshowImage6').src=tw_img6_src;
         document.getElementById('slideshowImage7').src=tw_img7_src;
         console.log("change image to CHT version");
-      break;
-    case 1:
+      } else {
+
         document.getElementById('slideshowImage1').src=eng_img1_src;
         document.getElementById('slideshowImage2').src=eng_img2_src;
         document.getElementById('slideshowImage3').src=eng_img3_src;
@@ -170,16 +170,11 @@ function changeImageByLang(lang_index){
         document.getElementById('slideshowImage6').src=eng_img6_src;
         document.getElementById('slideshowImage7').src=eng_img7_src;
         console.log("change image to ENG version");
-      break;
-    case 2:
-        document.getElementById('slideshowImage1').src=jp_img1_src;
-      //  document.getElementById('slideshowImage2').src=jp_img2_src;
-        console.log("change image to JP version");
-      break;
-    default:
+      }
+
 
   }
-
+  return;
 
 }
 
