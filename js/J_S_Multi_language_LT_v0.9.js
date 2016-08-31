@@ -337,6 +337,7 @@ function detectUserLang(){
   } else {
     var Previous_Lang_index= getCookie('lang_code');
     auto_chg_lang(Previous_Lang_index);
+    console.log(Previous_Lang_index);
   }
 }
 
