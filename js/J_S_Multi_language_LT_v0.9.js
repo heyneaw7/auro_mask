@@ -173,7 +173,7 @@ function changeImageByLang(lang_index){
       }
 
 
-  }
+  
   return;
 
 }
