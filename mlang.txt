@@ -1,6 +1,6 @@
 [
    {
-     "lang_title": "EQL - essence | 極光美肌儀",
+     "lang_title": "歡迎來到EQL - essence | 極光美肌儀",
      "lang_nav_intro": "產品",
      "lang_nav_spec": "規格",
      "lang_nav_download": "下載",
@@ -101,7 +101,7 @@
      "lang_body_led_blue_cont": "可抑制痤瘡桿菌生長，減少皮膚皮脂腺的分泌<br>改善粉刺及青春痘問題"
    },
    {
-     "lang_title": "English EQL - essence | AURO Mask",
+     "lang_title": "Welcome to EQL - essence | AURO Mask",
      "lang_nav_intro": "Product",
      "lang_nav_spec": "Product Spec",
      "lang_nav_download": "Download",
