@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#ececec;
+	font-family: 'Source Sans Pro', sans-serif; 微軟正黑體;
+	/*font-family: Microsoft JhengHei;*/
+}
+
+
+
+
+
+
+.navbar_style {
+	min-height:100px;
+	padding:10px 0px 20px 0px;
+	border-bottom-color:#ececec;
+}
+
+.faq_banner {
+	width:100%;
+	min-height: 400px;
+	padding:80px 0;
+	text-align:center;
+	background:url(../images/faqBanner.jpg) no-repeat top right;
+	background-size:cover;
+	color:#fff;
+}
+
+.faq_banner p {
+	font-size:20px;
+}
+
+.breadcrumb {
+	background-color:transparent;
+	font-family: 微軟正黑體;
+}
+
+.breadcrumb a {
+	color: #999;
+}
+
+.breadcrumb .active {
+	color: #E53FE4;
+}
+
+.btn_buy
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.7em 4em 0.7em 4em;
+		background: none;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.3em;
+		color: #FFF;
+		border:2px #fff solid;
+		cursor: pointer;
+		border-radius: 3px;
+		-webkit-transition: background .3s ease-in-out;
+		-moz-transition: background .3s ease-in-out;
+		transition: background .3s ease-in-out;
+	}
+
+	.btn_buy:hover
+	{
+		background: rgba(255,255,255,0.3);
+	}
+
+
+#faq {
+	padding-top:30px;
+}
+
+
+.qna {
+	/*padding:40px 0px;*/
+	margin-bottom:40px;
+	font-family: 微軟正黑體;
+}
+
+.qna h3 {
+	color:#666;
+	font-size:24px;
+	margin-bottom:20px;
+}
+
+.subject {
+	margin:40px 0px 60px 0px;
+}
+
+.ans {
+	background:#fff;
+	padding:5px 5%;
+	margin-bottom:40px;
+}
+
+.ans h4 {
+	color:#B3B3B3;
+	/*font-weight:lighter;*/
+	margin-bottom:10px;
+	font-size:24px;
+}
+
+.ans p {
+	color:#4A4A4A;
+	font-size:14px;
+	line-height:160%;
+}
+
+
+
+/* Footer-----------------------------------------------------------*/
+
+	#footer
+	{
+		background:url(../images/bg_family.jpg) center no-repeat;
+		background-size:cover;
+		padding-top:300px;
+		padding-bottom:60px;
+		text-align:center;
+	}
+
+	#footer h3
+	{
+		font-size:26px;
+		color:#ccc;
+		font-weight:lighter;
+	}
+
+
+.footbottom {
+		background:#000;
+		padding:40px;
+		text-align:center;
+		color:#ccc;
+		font-size:16px;
+	}
