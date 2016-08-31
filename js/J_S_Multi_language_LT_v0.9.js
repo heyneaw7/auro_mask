@@ -29,7 +29,9 @@ function chg_lang(lang_index){
 // 切換語系
 function auto_chg_lang(lang_index){
 
-
+      //寫入Cookie
+      setCookie('lang_code',lang_index,'365');
+      var xck= getCookie('lang_code');
 			//更改標題文字
       changeWebTitle(lang_index);
 
