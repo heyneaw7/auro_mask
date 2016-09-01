@@ -1049,7 +1049,7 @@ img
     letter-spacing: 0.1em;
     text-shadow: none;
     border: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1198,7 +1198,7 @@ p .btn
     letter-spacing: 0.1em;
     text-shadow: none;
     border: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 25px;
