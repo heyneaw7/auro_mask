@@ -96,11 +96,11 @@
      "lang_body_led_cont3": "潔西卡艾芭(Jessica Alba), 妮可里奇(Nicole Richie)等名人強力推薦",
      "lang_body_proof": "- 臨床醫學研究驗證 -",
      "lang_body_led_cont4": "生物刺激原理 （非侵入式 無破壞性）",
-     "lang_body_led_red": "紅光",
+     "lang_body_led_red": "紅光<span class="ps">[1]</span>",
      "lang_body_led_red_cont": "刺激膠原蛋白與彈力蛋白增生，活化纖母細胞，促進血液循環，抗發炎加速傷口癒合",
-     "lang_body_led_yellow": "黃光",
+     "lang_body_led_yellow": "黃光<span class="ps">[2]</span>",
      "lang_body_led_yellow_cont": "促進黑色素代謝，提亮膚色，舒緩敏感肌膚，提升肌膚對保養品的吸收力",
-     "lang_body_led_blue": "藍光",
+     "lang_body_led_blue": "藍光<span class="ps">[3]</span>",
      "lang_body_led_blue_cont": "可抑制痤瘡桿菌生長，減少皮膚皮脂腺的分泌，，改善粉刺及青春痘問題"
    },
    {
@@ -200,11 +200,11 @@
      "lang_body_led_cont3": "Jessica Alba and Nicole Richie are the latest stars to sport anti-aging LED lights face masks.",
      "lang_body_proof": "- Medical Researches -",
      "lang_body_led_cont4": "Low Frequency Energy, Penetrate into Skin Dermis",
-     "lang_body_led_red": "Red Light",
+     "lang_body_led_red": "Red Light<span class="ps">[1]</span>",
      "lang_body_led_red_cont": "Boosting cellular activity, stimulating collagen production, and increasing circulation. Can reduce wrinkles and fine lines, keep elasticity and firmness of the skin.",
-     "lang_body_led_yellow": "Yellow Light",
+     "lang_body_led_yellow": "Yellow Light<span class="ps">[2]</span>",
      "lang_body_led_yellow_cont": "Promoting skin absorption effect, enhancing skin metabolism. Can improve overall skin tone, smooth sensitive skin condition, make skin bright and white.",
-     "lang_body_led_blue": "Blue Light",
+     "lang_body_led_blue": "Blue Light<span class="ps">[3]</span>",
      "lang_body_led_blue_cont": "Destroying acne-causing bacteria, moderating acne and reducing acne productions. Can improve oil skin condition, repair acne scar."
    }
  ]
