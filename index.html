@@ -126,9 +126,7 @@
       }
 
       function resetchecker(){
-
-        document.getElementsByClassName("skintest_item")[0].checked = false;
-
+        $('input:checkbox').removeAttr('checked');
       }
 
     }
@@ -246,7 +244,7 @@
                 <div class="item">
                     <img id="slideshowImage3" src="images/slider_img_03_ch.jpg" alt="...">
                     <div class="carousel-caption">
-                        <!-- 若需要可放文字 -->
+                        <a href="#" data-id="content-3-11" class="btn button navbar-btn btn_order" id="lang_body_knowmore">瞭解更多</a>
                     </div>
                 </div>
             </div>
@@ -272,7 +270,10 @@
         </section>
         <!--Intro AuroMask---->
         <section class="img_materials">
-            <img src="images/intro_cn.jpg" class="img-responsive" id="slideshowImage4">
+            <img id="slideshowImage4" src="images/intro_cn.jpg" class="img-responsive" >
+            <div class="image_caption">
+              <a href="#" data-id="content-3-11" class="btn button navbar-btn btn_order" id="lang_body_knowmore2">瞭解更多</a>
+            </div>
         </section>
         <!---Start of  six features --------->
         <section class="six_features">
@@ -337,8 +338,7 @@
                             <img src="images/img_process01.jpg" width="230" class="img-circle">
                             <dl class="dl-horizontal center-block">
                                 <dt id="lang_body_process_oneone" class="center-block">1.</dt>
-                                <dd id="lang_body_process_one" class="center-block">先把臉部清潔乾淨並擦上
-                                    <br>慣用的保養品
+                                <dd id="lang_body_process_one" class="center-block">先把臉部清潔乾淨並擦上慣用的保養品
                                 </dd>
                             </dl>
                         </div>
@@ -348,8 +348,7 @@
                             <img src="images/img_process02.jpg" width="230" class="img-circle">
                             <dl class="dl-horizontal center-block">
                                 <dt id="lang_body_process_oneone" class="center-block">2.</dt>
-                                <dd id="lang_body_process_two" class="center-block">戴上面膜並調整至適當
-                                    <br>鬆緊度
+                                <dd id="lang_body_process_two" class="center-block">戴上面膜並調整至適當鬆緊度
                                 </dd>
                             </dl>
                         </div>
@@ -373,11 +372,11 @@
                         <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem.</p>-->
                     </div>
                 </div>
-                <div class="tips">
-                    <h5 id="lang_body_process_tip"> 溫馨小提醒</h5>
-                    <p id="lang_body_process_tips1">* 請避免擦上酸性,光敏性,美白類產品後立即使用美機儀</p>
-                    <p id="lang_body_process_tips2">* 可於美白,酸類療程後,徹底清潔臉部再使用美肌儀; 或於美肌儀保養完成後再擦上酸性,光敏性,美白類產品</p>
-                    <p id="lang_body_process_tips3">* 初次使用光療產品者,可參考App“推薦行程”待皮膚適應光照保養後再依自身狀況調整保養頻率及時間</p>
+                <h5 class="tips" id="lang_body_process_tip">溫馨小提醒</h5>
+                <div class="tipss">
+                    <li id="lang_body_process_tips1">請避免擦上酸性,光敏性,美白類產品後立即使用美機儀</li>
+                    <li id="lang_body_process_tips2">可於美白,酸類療程後,徹底清潔臉部再使用美肌儀; 或於美肌儀保養完成後再擦上酸性,光敏性,美白類產品</li>
+                    <li id="lang_body_process_tips3">初次使用光療產品者,可參考App“推薦行程”待皮膚適應光照保養後再依自身狀況調整保養頻率及時間</li>
                 </div>
             </div>
         </div>
@@ -441,6 +440,7 @@
         <img src="images/bg_productimg.jpg" class="img-responsive" id="slideshowImage6">
     </section>
     <!--End of product materials-->
+
     <section class="certification bg-offwhite">
         <div class="container">
             <div class="row">
@@ -452,24 +452,24 @@
                     <h3 id="lang_body_certificate_box1_cont2">MIT國際知名大廠研發製造</h3>
                     <div class="col-md-6 col-xs-12 list">
                         <ul class="topic">
-                            <li id="lang_body_certificate_box1_cont3">ISO 9001 國際品質嚴格控管</li>
-                            <li id="lang_body_certificate_box1_cont4">ISO 14001 環境管理系統</li>
-                            <li id="lang_body_certificate_box2">ISO 13485 醫療器材品質管理系統</li>
-                            <li id="lang_body_certificate_box2_cont1">OHSAS18001 職業安全衛生管理系統</li>
-                            <li id="lang_body_certificate_box2_cont2">QC 080000 有害物質流程管理系統</li>
-                            <li id="lang_body_certificate_box2_cont3">食用級矽膠測試報告</li>
-                            <li id="lang_body_certificate_box2_cont4">LED 通過 IEC62471 認證</li>
+                            <li id="lang_body_certificate_box1_cont3"><span>ISO 9001 國際品質嚴格控管</span></li>
+                            <li id="lang_body_certificate_box1_cont4"><span>ISO 14001 環境管理系統</span></li>
+                            <li id="lang_body_certificate_box2"><span>ISO 13485 醫療器材品質管理系統</span></li>
+                            <li id="lang_body_certificate_box2_cont1"><span>OHSAS18001 職業安全衛生管理系統</span></li>
+                            <li id="lang_body_certificate_box2_cont2"><span>QC 080000 有害物質流程管理系統</span></li>
+                            <li id="lang_body_certificate_box2_cont3"><span>食用級矽膠測試報告</span></li>
+                            <li id="lang_body_certificate_box2_cont4"><span>LED 通過 IEC62471 認證</span></li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-xs-12 list">
                         <ul class="topic">
-                            <li id="lang_body_certificate_box2_cont5">SGS 細胞毒測試</li>
-                            <li id="lang_body_certificate_box2_cont6">SGS 皮膚刺激測試</li>
-                            <li id="lang_body_certificate_box2_cont7">SGS 皮膚敏感測試</li>
-                            <li class="extra">SGS 抗菌測試報告</li>
-                            <li class="extra">CE 歐盟醫療器材認證</li>
-                            <li class="extra">NCC 國家通訊傳播委員會認證</li>
-                            <li class="extra">FCC 美國聯邦通信委任證</li>
+                            <li id="lang_body_certificate_box2_cont5"><span>SGS 細胞毒測試</span></li>
+                            <li id="lang_body_certificate_box2_cont6"><span>SGS 皮膚刺激測試</span></li>
+                            <li id="lang_body_certificate_box2_cont7"><span>SGS 皮膚敏感測試</span></li>
+                            <li class="extra"><span>SGS 抗菌測試報告</span></li>
+                            <li class="extra"><span>CE 歐盟醫療器材認證</span></li>
+                            <li class="extra"><span>NCC 國家通訊傳播委員會認證</span></li>
+                            <li class="extra"><span>FCC 美國聯邦通信委任證</span></li>
                         </ul>
                     </div>
                 </div>
@@ -833,7 +833,7 @@
                     <div class="services-wrapper">
                         <div class="col-md-4">
                             <div class="icon">
-                                <a href="http://www.nasa.gov/home/hqnews/2003/nov/HQ_03366_clinical_trials.html">
+                                <a href="http://www.nasa.gov/topics/nasalife/features/heals.html">
                                     <img src="images/img_scientist.png" width="80">
                                 </a>
                                 <span class="fa fa-laptop"></span>
@@ -908,7 +908,9 @@
                             <p class="introled" id="lang_body_led_cont4">生物刺激原理（非侵入式 無破壞性）</p>
                             <div class="col-sm-4 col-xs-12 ledstatus_pic0">
                                 <img src="images/led_red.png">
-                                <p id="lang_body_led_red">紅光</p>
+                                <a href="http://jcadonline.com/light-emitting-diodes-a-brief-review-and-clinical-experience/">
+                                  <p id="lang_body_led_red">紅光<span class="ps">[1]</span></p>
+                                </a>
                             </div>
                             <div class="col-sm-8 col-xs-12">
                                 <div class="ledstatus_text">
@@ -919,7 +921,9 @@
                         <div class="row center-block">
                             <div class="col-sm-4 col-xs-12 ledstatus_pic0">
                                 <img src="images/led_yellow.png">
-                                <p id="lang_body_led_yellow">黃光</p>
+                                <a href="https://www.researchgate.net/publication/7586729_Clinical_Experience_with_Light-Emitting_Diode_LED_Photomodulation">
+                                  <p id="lang_body_led_yellow">黃光<span class="ps">[2]</span></p>
+                                </a>
                             </div>
                             <div class="col-sm-8 col-xs-12">
                                 <div class="ledstatus_text">
@@ -930,7 +934,9 @@
                         <div class="row center-block">
                             <div class="col-sm-4 col-xs-12 ledstatus_pic0">
                                 <img src="images/led_blue.png">
-                                <p id="lang_body_led_blue">藍光</p>
+                                <a href="http://jcadonline.com/clinical-efficacy-of-self-applied-blue-light-therapy-for-mild-to-moderate-facial-acne/">
+                                 <p id="lang_body_led_blue">藍光<span class="ps">[3]</span></p>
+                                </a>
                             </div>
                             <div class="col-sm-8 col-xs-12">
                                 <div class="ledstatus_text">
@@ -1052,7 +1058,7 @@
 
 			 var $body = $('html,body');
 
-		  $('.nav li a').click(function(){
+		  $('.nav li a, .carousel-caption a, .image_caption a').click(function(){
 			  var location = $(this).data('id').toLowerCase();
 			  $body.animate({scrollTop: $("#"+location).offset().top}, {duration:1200});
 			  return false;
