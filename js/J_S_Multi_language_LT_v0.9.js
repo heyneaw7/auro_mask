@@ -198,9 +198,11 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_change_ch').innerHTML = arr[lang_index].lang_change_ch;
   document.getElementById('lang_change_en').innerHTML = arr[lang_index].lang_change_en;
   document.getElementById('lang_navshop').innerHTML = arr[lang_index].lang_navshop;
+  document.getElementById('lang_body_knowmore').innerHTML = arr[lang_index].lang_body_knowmore;
   document.getElementById('lang_body_intro').innerHTML = arr[lang_index].lang_body_intro;
   document.getElementById('lang_body_intro_cont1').innerHTML = arr[lang_index].lang_body_intro_cont1;
   document.getElementById('lang_body_slogan').innerHTML = arr[lang_index].lang_body_slogan;
+  document.getElementById('lang_body_knowmore2').innerHTML = arr[lang_index].lang_body_knowmore2;
   document.getElementById('lang_body_sixfeatures').innerHTML = arr[lang_index].lang_body_sixfeatures;
   document.getElementById('lang_body_six_icon1').innerHTML = arr[lang_index].lang_body_six_icon1;
   document.getElementById('lang_body_six_small1').innerHTML = arr[lang_index].lang_body_six_small1;
