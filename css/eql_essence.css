@@ -604,6 +604,12 @@ color: #FFAFAE;
 			color: #fff
 		}
 
+		.tipss ul {
+			list-style-type:disc;
+　　   margin:0px;
+      list-style-position: outside;
+		}
+
 		.tipss li {
 			padding-left: 20px;
 			text-align: left;
@@ -1130,11 +1136,7 @@ font-size: 24px;
 }
 
 
-.ps {
-	font-size: 12px;
-	color: grey;
-}
 
-.ps:hover {
+.ledstatus_pic0 p:hover {
 	color: #f1513b;
 }
