@@ -1138,3 +1138,11 @@ font-size: 24px;
 		margin-top: -70px;
 	}
 }
+
+.eng .distributor {
+	display: none;
+}
+
+.distributor {
+	text-align: center;
+}
